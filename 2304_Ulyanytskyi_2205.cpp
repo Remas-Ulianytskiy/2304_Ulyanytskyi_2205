@@ -7,6 +7,7 @@ using namespace std;
 template <typename type>
 type get_user_value() {
     type value;
+    cout << "Enter: ";
     cin >> value;
     return value;
 }
@@ -117,7 +118,7 @@ int main()
 
     films.push_back({ "Interstellar", "Sci-fi", "Christopher Nolan", 8.7, 10 });
     films.push_back({ "Dune", "Sci-fi", "Denis Villeneuve", 8.0, 12 });
-    films.push_back({ "The_Dark_Knight", "Action", "Christopher Nolan", 8.0, 12 });
+    films.push_back({ "The Dark Knight", "Action", "Christopher Nolan", 8.0, 12 });
     films.push_back({ "Sicario", "Thriller", "Denis Villeneuve", 8.0, 9 });
 
     do
@@ -130,7 +131,6 @@ int main()
         cout << "5 - for search the most popular film in the genre\n";
         cout << "6 - for add new movie\n";
         cout << "0 - for Exit\n";
-        cout << "Enter: ";
 
         menu_choice = get_user_value<int>();
 
