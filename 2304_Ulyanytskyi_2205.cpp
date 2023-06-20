@@ -118,8 +118,8 @@ int main()
 
     films.push_back({ "Interstellar", "Sci-fi", "Christopher Nolan", 8.7, 10 });
     films.push_back({ "Dune", "Sci-fi", "Denis Villeneuve", 8.0, 12 });
-    films.push_back({ "The Dark Knight", "Action", "Christopher Nolan", 8.0, 12 });
-    films.push_back({ "Sicario", "Thriller", "Denis Villeneuve", 8.0, 9 });
+    films.push_back({ "The Dark Knight", "Action", "Christopher Nolan", 9.0, 12 });
+    films.push_back({ "Sicario", "Thriller", "Denis Villeneuve", 7.6, 9 });
 
     do
     {
